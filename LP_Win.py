@@ -1,5 +1,6 @@
+
 played = input('How many games has this team played?  ')
-won = input('How many gamees has this team played?  ')
+won = input('How many games has this team won?  ')
 p = int(played)
 w = int(won)
 gold = input('How much gold does this acquire on average?  ')
