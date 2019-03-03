@@ -57,10 +57,15 @@ if skrm == "y":
     if won == "1":
         winchance1 = winchance1 + 10
     else:
-        winchance2 = winschance2 + 10
+        winchance2 = winchance2 + 10
 else:
     print("")
 if (winchance1 > winchance2):
     print("{} may win".format(team1))
+    print(winchance1)
+    print(winchance2)
 else:
-    print("{} may win".format(team2))
+    print("{} may win".format(team2)) 
+    print(winchance1)
+    print(winchance2)
+
