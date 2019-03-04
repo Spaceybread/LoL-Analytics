@@ -55,9 +55,9 @@ skrm = input("Have these teams fought before (y/n)?  ")
 if skrm == "y":
     won = input("Who won the last match? (1/2)  ")
     if won == "1":
-        winchance1 = winchance1 + 15
+        winchance1 = winchance1 + 12.5
     else:
-        winchance2 = winchance2 + 15
+        winchance2 = winchance2 + 12.5
 else:
     print("")
 if (winchance1 > winchance2):
